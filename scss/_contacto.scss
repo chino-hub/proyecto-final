@@ -1,0 +1,15 @@
+// colores
+@import "colores";
+@import "footer";
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f9f5f1;
+}
+
+// estilos formulario
+.texto {
+    &__h1 {
+        color: $color-blue;
+    }
+}

@@ -1,0 +1,15 @@
+@import "colores";
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+// ESTILOS FOOTER
+#footer-main {
+    background-color: $color-blue;
+}
+
+.footer-left,
+.footer-center {
+    color: $color-white;
+}

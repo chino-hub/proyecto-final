@@ -1,0 +1,25 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+// ESTILOS MENU DESPLEGABLE
+#aside {
+    background-color: #D94E65;
+    ul>li {
+        cursor: pointer;
+        color: #fff;
+    }
+}
+
+.mostrar {
+    display: block;
+}
+
+.sub {
+    display: none;
+}
+
+// li:hover>ul {
+//     display: block;
+// }

@@ -1,0 +1,163 @@
+body {
+  padding: 0;
+  margin: 0; }
+
+li {
+  list-style: none; }
+
+a {
+  text-decoration: none; }
+
+#header {
+  background-color: #8aaae5; }
+
+.nav__logo {
+  font-size: 20px;
+  margin: auto;
+  border-radius: 10px; }
+  .nav__logo a {
+    font-weight: bold;
+    color: #ffffff;
+    padding: 5px;
+    width: 100%; }
+    .nav__logo a span {
+      font-size: 0.75em;
+      font-weight: lighter;
+      color: #ffffff; }
+
+.list {
+  width: 40px;
+  height: 40px;
+  position: relative; }
+  .list__img {
+    width: 100%;
+    height: auto;
+    cursor: pointer; }
+
+.menu {
+  position: absolute;
+  background-color: #8aaae5;
+  top: 100%;
+  left: 0;
+  width: 60%;
+  height: 100vh;
+  z-index: 11;
+  padding-left: 0;
+  transition: all .5s ease; }
+  .menu__item {
+    margin-top: 40px;
+    margin-left: 10px;
+    font-size: 20px; }
+  .menu__link {
+    display: block; }
+
+.active {
+  left: -600px; }
+
+@media only screen and (min-width: 768px) {
+  #header {
+    box-shadow: 0px 0px 0px 1px 10px #666; }
+  .list {
+    display: none; }
+  .active {
+    left: 0; }
+  .menu {
+    background-color: initial;
+    position: initial;
+    top: initial;
+    left: initial;
+    width: initial;
+    height: initial;
+    z-index: 11;
+    padding-left: 0;
+    transition: initial;
+    margin: auto; }
+    .menu__item {
+      margin-top: initial;
+      margin-left: initial;
+      margin-right: 25px;
+      font-size: 18px; }
+    .menu__link {
+      display: inline-block;
+      color: #000; }
+      .menu__link img {
+        display: none; } }
+
+body {
+  margin: 0;
+  padding: 0; }
+
+#aside {
+  background-color: #D94E65; }
+  #aside ul > li {
+    cursor: pointer;
+    color: #fff; }
+
+.mostrar {
+  display: block; }
+
+.sub {
+  display: none; }
+
+body {
+  margin: 0;
+  padding: 0; }
+
+.presentacion {
+  background-color: #8aaae5; }
+  .presentacion__p {
+    color: #fff;
+    font-weight: lighter; }
+
+.segmento__h4 {
+  font-size: 18px;
+  font-weight: 500; }
+
+.segmento__img {
+  width: 30px;
+  height: 30px; }
+
+.tarjeta {
+  border-radius: 6px; }
+  .tarjeta__img {
+    width: 80px;
+    height: 123px; }
+    .tarjeta__img img {
+      height: 100%;
+      border-radius: 6px;
+      box-shadow: 1px 1px 3px #666; }
+  .tarjeta__descripcion {
+    font-size: 18px; }
+    .tarjeta__descripcion p {
+      font-size: 0.75rem;
+      line-height: .72rem;
+      width: 80px;
+      color: #666;
+      padding-bottom: 0; }
+    .tarjeta__descripcion span {
+      display: block;
+      font-size: .75rem;
+      margin-top: -10px; }
+
+@media only screen and (min-width: 768px) {
+  .presentacion {
+    text-align: center;
+    height: 30vh; }
+    .presentacion__titulo {
+      height: 100%;
+      padding: 20px 0px 20px 10px;
+      background: linear-gradient(to right, #8aaae5, transparent); }
+    .presentacion__p {
+      color: #fff;
+      font-weight: lighter; } }
+
+body {
+  margin: 0px;
+  padding: 0px; }
+
+#footer-main {
+  background-color: #8aaae5; }
+
+.footer-left,
+.footer-center {
+  color: #ffffff; }
