@@ -10,11 +10,10 @@ body {
 // estilos contenido
 .presentacion {
     background-color: mix(#fff, $color-blue, );
-}
-
-&__p {
-    color: #fff;
-    font-weight: lighter;
+    &__p {
+        color: #fff;
+        font-weight: lighter;
+    }
 }
 
 .segmento__h4 {
@@ -70,7 +69,6 @@ body {
         .titulo {
             &__h1 {
                 color: mix(#fff, #8aaae5, 85%);
-                font-size: calc(1em + 20vw);
                 font-weight: 900;
                 text-shadow: -0.0075em 0.0075em 0 mix(#fff, #8aaae5, 94%), 0.005em 0.005em 0 mix(#fff, #8aaae5, 60%), 0.01em 0.01em 0 mix(#fff, #8aaae5, 62%), 0.015em 0.015em mix(#fff, #8aaae5, 64%), 0.02em 0.02em 0 mix(#fff, #8aaae5, 66%), 0.025em 0.025em 0 mix(#fff, #8aaae5, 68%), 0.03em 0.03em 0 mix(#fff, #8aaae5, 70%), 0.035em 0.035em 0 mix(#fff, #8aaae5, 72%);
             }

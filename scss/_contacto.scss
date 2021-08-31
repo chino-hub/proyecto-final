@@ -1,6 +1,9 @@
 // colores
 @import "colores";
 @import "footer";
+// funete
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,300&family=Poppins:ital,wght@0,300;0,700;1,400&display=swap');
 body {
     margin: 0;
     padding: 0;
@@ -8,3 +11,25 @@ body {
 }
 
 // estilos formulario
+#formulario {
+    margin: auto;
+}
+
+.texto {
+    box-shadow: 0px 0px 4px 1px rgba(102, 102, 102, 0.5);
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    &__h1 {
+        color: $color-blue;
+        font-weight: 600;
+    }
+    &__p {
+        font-size: 0.80em;
+    }
+}
+
+.form__input {
+    border-radius: 8px;
+    border-style: none;
+    box-shadow: 0px 0px 4px 1px rgba(102, 102, 102, 0.3);
+}

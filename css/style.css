@@ -1,3 +1,6 @@
+@import url("https://fonts.googleapis.com/css2?family=Titan+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,300&family=Poppins:ital,wght@0,300;0,700;1,400&display=swap");
 body {
   padding: 0;
   margin: 0; }
@@ -104,7 +107,7 @@ body {
   padding: 0; }
 
 .presentacion {
-  background-color: #8aaae5; }
+  background-color: #c5d5f2; }
   .presentacion__p {
     color: #fff;
     font-weight: lighter; }
@@ -116,6 +119,9 @@ body {
 .segmento__img {
   width: 30px;
   height: 30px; }
+
+.titulo__h1 {
+  color: #ffffff; }
 
 .tarjeta {
   border-radius: 6px; }
@@ -143,10 +149,10 @@ body {
   .presentacion {
     text-align: center;
     height: 30vh; }
-    .presentacion__titulo {
-      height: 100%;
-      padding: 20px 0px 20px 10px;
-      background: linear-gradient(to right, #8aaae5, transparent); }
+    .presentacion .titulo__h1 {
+      color: #edf2fb;
+      font-weight: 900;
+      text-shadow: -0.0075em 0.0075em 0 #f8fafd, 0.005em 0.005em 0 #d0ddf5, 0.01em 0.01em 0 #d3dff5, 0.015em 0.015em #d5e0f6, 0.02em 0.02em 0 #d7e2f6, 0.025em 0.025em 0 #dae4f7, 0.03em 0.03em 0 #dce6f7, 0.035em 0.035em 0 #dee7f8; }
     .presentacion__p {
       color: #fff;
       font-weight: lighter; } }
@@ -161,3 +167,75 @@ body {
 .footer-left,
 .footer-center {
   color: #ffffff; }
+
+body {
+  margin: 0px;
+  padding: 0px; }
+
+#footer-main {
+  background-color: #8aaae5; }
+
+.footer-left,
+.footer-center {
+  color: #ffffff; }
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #f9f5f1; }
+
+#formulario {
+  margin: auto; }
+
+.texto {
+  box-shadow: 0px 0px 4px 1px rgba(102, 102, 102, 0.5);
+  font-family: 'Poppins', sans-serif;
+  font-size: 18px; }
+  .texto__h1 {
+    color: #8aaae5;
+    font-weight: 600; }
+  .texto__p {
+    font-size: 0.80em; }
+
+.form__input {
+  border-radius: 8px;
+  border-style: none;
+  box-shadow: 0px 0px 4px 1px rgba(102, 102, 102, 0.3); }
+
+body {
+  padding: 0;
+  margin: 0; }
+
+a {
+  text-decoration: none !important; }
+
+.busqueda__input {
+  width: 80%;
+  border-style: none; }
+
+.busqueda {
+  position: relative; }
+
+.genero {
+  position: absolute;
+  top: 80px;
+  background-color: #8aaae5;
+  min-width: 100px;
+  z-index: 12;
+  display: block;
+  opacity: 1;
+  transition: all .5s ease; }
+  .genero h3 {
+    color: #ffffff; }
+
+.mostrar {
+  display: none;
+  opacity: 0; }
+
+.listado {
+  padding-left: 0; }
+
+.tema {
+  text-align: left; }
+  .tema__item {
+    color: #ffffff; }
