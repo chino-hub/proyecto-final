@@ -155,7 +155,39 @@ body {
       text-shadow: -0.0075em 0.0075em 0 #f8fafd, 0.005em 0.005em 0 #d0ddf5, 0.01em 0.01em 0 #d3dff5, 0.015em 0.015em #d5e0f6, 0.02em 0.02em 0 #d7e2f6, 0.025em 0.025em 0 #dae4f7, 0.03em 0.03em 0 #dce6f7, 0.035em 0.035em 0 #dee7f8; }
     .presentacion__p {
       color: #fff;
-      font-weight: lighter; } }
+      font-weight: lighter; }
+  #header {
+    height: 45px; }
+  .tarjeta {
+    width: 170px;
+    height: auto;
+    border-radius: initial;
+    border: 1px solid #d4d4d4;
+    padding-bottom: 10px; }
+    .tarjeta__img {
+      width: 100%;
+      height: auto;
+      margin: auto; }
+      .tarjeta__img img {
+        height: 100%;
+        border-radius: initial;
+        box-shadow: initial; }
+    .tarjeta__descripcion {
+      font-size: 18px;
+      margin-left: 5px; }
+      .tarjeta__descripcion p {
+        font-size: 0.80rem;
+        line-height: .72rem;
+        width: 80px;
+        color: #666;
+        padding-bottom: 0; }
+      .tarjeta__descripcion span {
+        display: block;
+        font-size: .80rem;
+        margin-top: -10px;
+        color: green; }
+  .tarjeta:hover {
+    box-shadow: 0px 0px 8px 3px rgba(102, 102, 102, 0.3); } }
 
 body {
   margin: 0px;
