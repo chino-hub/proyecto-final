@@ -276,8 +276,7 @@ body {
   margin: 0;
   padding: 0; }
 
-h4 {
-  background-color: rgba(102, 102, 102, 0.1); }
-
 .pregunta {
   padding: 20px 0px; }
+  .pregunta h4 {
+    background-color: rgba(102, 102, 102, 0.1); }

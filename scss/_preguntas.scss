@@ -4,10 +4,9 @@ body {
     padding: 0;
 }
 
-h4 {
-    background-color: rgba(102, 102, 102, 0.1);
-}
-
 .pregunta {
     padding: 20px 0px;
+    h4 {
+        background-color: rgba(102, 102, 102, 0.1);
+    }
 }
