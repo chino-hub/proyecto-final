@@ -146,7 +146,7 @@ body {
       margin-top: -10px;
       color: green; }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 960px) {
   .presentacion {
     text-align: center;
     height: 30vh; }
@@ -271,3 +271,13 @@ a {
   text-align: left; }
   .tema__item {
     color: #ffffff; }
+
+body {
+  margin: 0;
+  padding: 0; }
+
+h4 {
+  background-color: rgba(102, 102, 102, 0.1); }
+
+.pregunta {
+  padding: 20px 0px; }
