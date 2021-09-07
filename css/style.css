@@ -49,16 +49,23 @@ a {
   transition: all .5s ease; }
   .menu__item {
     margin-top: 40px;
-    margin-left: 10px;
     font-size: 20px; }
   .menu__link {
-    display: block; }
+    display: block;
+    color: #ffffff !important; }
 
 .active {
   left: -600px; }
 
 @media only screen and (min-width: 768px) {
+  .contenedor {
+    max-width: 1280px;
+    width: 90%;
+    margin: auto; }
+  .navBar {
+    height: 100%; }
   #header {
+    height: 45px;
     box-shadow: 0px 0px 0px 1px 10px #666; }
   .list {
     display: none; }
@@ -120,6 +127,12 @@ body {
   width: 30px;
   height: 30px; }
 
+.bg {
+  background-color: #8aaae5; }
+
+.bg-color {
+  color: #ffffff; }
+
 .titulo__h1 {
   color: #ffffff; }
 
@@ -147,6 +160,10 @@ body {
       color: green; }
 
 @media only screen and (min-width: 960px) {
+  .contenedor {
+    max-width: 1280px;
+    width: 90%;
+    margin: auto; }
   .presentacion {
     text-align: center;
     height: 30vh; }
@@ -157,8 +174,6 @@ body {
     .presentacion__p {
       color: #fff;
       font-weight: lighter; }
-  #header {
-    height: 45px; }
   .tarjeta {
     width: 170px;
     height: auto;
@@ -218,6 +233,9 @@ body {
 
 #formulario {
   margin: auto; }
+
+.navBar {
+  height: 100%; }
 
 .texto {
   box-shadow: 0px 0px 4px 1px rgba(102, 102, 102, 0.5);

@@ -26,6 +26,14 @@ body {
     height: 30px;
 }
 
+.bg {
+    background-color: $color-blue;
+}
+
+.bg-color {
+    color: $color-white;
+}
+
 // estilos titulo 
 .titulo {
     &__h1 {
@@ -63,7 +71,13 @@ body {
     }
 }
 
+// VISTA DESKTOP
 @media only screen and (min-width:960px) {
+    .contenedor {
+        max-width: 1280px;
+        width: 90%;
+        margin: auto;
+    }
     .presentacion {
         text-align: center;
         height: 30vh;
@@ -78,9 +92,6 @@ body {
             color: #fff;
             font-weight: lighter;
         }
-    }
-    #header {
-        height: 45px;
     }
     .tarjeta {
         width: 170px;

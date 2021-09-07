@@ -60,11 +60,11 @@ a {
     transition: all .5s ease;
     &__item {
         margin-top: 40px;
-        margin-left: 10px;
         font-size: 20px;
     }
     &__link {
         display: block;
+        color: $color-white !important;
     }
 }
 
@@ -73,8 +73,18 @@ a {
 }
 
 // FIN MENU HAMBURGUESA
+// VISTA TABLET
 @media only screen and (min-width:768px) {
+    .contenedor {
+        max-width: 1280px;
+        width: 90%;
+        margin: auto;
+    }
+    .navBar {
+        height: 100%;
+    }
     #header {
+        height: 45px;
         box-shadow: 0px 0px 0px 1px 10px #666;
     }
     .list {
