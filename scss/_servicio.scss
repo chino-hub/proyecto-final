@@ -3,49 +3,66 @@
 body {
     padding: 0;
     margin: 0;
+    background-color: #ffffff;
 }
 
 a {
     text-decoration: none !important;
 }
 
-.busqueda {
-    &__input {
-        width: 80%;
-        border-style: none;
-    }
-}
-
+// ESTILOS BARRA DE BUSQUEDA
 .busqueda {
     position: relative;
-}
-
-.genero {
-    position: absolute;
-    top: 80px;
-    background-color: $color-blue;
-    min-width: 100px;
-    z-index: 12;
-    display: block;
-    opacity: 1;
-    transition: all .5s ease;
-    h3 {
-        color: $color-white;
+    padding: 10px 0px;
+    &__input {
+        border-style: none;
+        border-radius: 15px;
+        width: 94%;
+        height: 30px;
+        margin: auto;
+        padding-left: 9px;
+        background-color: rgba(102, 102, 102, 0.13);
+    }
+    &__img {
+        position: absolute;
+        top: 18px;
+        right: 25px;
     }
 }
 
-.mostrar {
+// ESTILOS BOTONES FILTROS
+.filtros {
+    background-color: rgba(138, 170, 229, 0.7);
+    width: 100wh;
+}
+
+.dropDown,
+.dropDown__menu {
+    text-align: center;
+}
+
+.dropDown>ul {
+    padding: 0px;
+}
+
+.menu__li {
+    padding: 5px 0px;
+    color: $color-white;
+    cursor: pointer;
+}
+
+.dropDown__menu {
+    margin: auto;
+}
+
+.flecha {
+    font-weight: bold;
+}
+
+.menu__li>.oculto {
     display: none;
-    opacity: 0;
 }
 
-.listado {
-    padding-left: 0;
-}
-
-.tema {
-    text-align: left;
-    &__item {
-        color: $color-white;
-    }
+.submenu {
+    background-color: #ffffff !important;
 }
