@@ -378,8 +378,13 @@ body {
   .contenido__compra .caracteristicas {
     font-size: 0.80rem; }
 
+.contenido__img img {
+  height: 137px;
+  border-radius: initial; }
+
 .compra__boton {
-  background-color: #01b801;
+  background-color: #8aaae5;
+  color: #ffffff;
   border-style: none;
   font-size: 16px;
   margin: 10px 0px; }
@@ -387,7 +392,8 @@ body {
 .compra__carrito {
   background-color: transparent;
   border-style: none;
-  border: 1px solid #666;
+  border: 1px solid #8aaae5;
+  color: #8aaae5;
   font-size: 16px; }
 
 .sinopsis {
@@ -395,3 +401,6 @@ body {
   .sinopsis p {
     margin-top: 20px;
     color: #666; }
+
+.caracteristicas_libro .tableRow > th {
+  color: #666; }
