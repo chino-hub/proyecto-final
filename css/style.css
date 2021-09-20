@@ -404,3 +404,15 @@ body {
 
 .caracteristicas_libro .tableRow > th {
   color: #666; }
+
+.masDetalles > h4 {
+  text-align: center;
+  padding: 20px 0px;
+  color: #666; }
+
+.masDetalles__libro {
+  margin: auto; }
+  .masDetalles__libro .tableRow {
+    height: 50px; }
+    .masDetalles__libro .tableRow .tableHead {
+      color: #666; }

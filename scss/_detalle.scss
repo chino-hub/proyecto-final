@@ -71,3 +71,19 @@
             color: #666;
         }
     }
+    
+    .masDetalles>h4 {
+        text-align: center;
+        padding: 20px 0px;
+        color: #666;
+    }
+    
+    .masDetalles__libro {
+        margin: auto;
+        .tableRow {
+            height: 50px;
+            .tableHead {
+                color: #666;
+            }
+        }
+    }
