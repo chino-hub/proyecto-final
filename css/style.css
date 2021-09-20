@@ -357,3 +357,41 @@ body {
   padding: 20px 0px; }
   .pregunta h4 {
     background-color: rgba(102, 102, 102, 0.1); }
+
+body {
+  margin: 0;
+  padding: 0; }
+
+.muestra__titulo .arrow {
+  position: relative;
+  width: 25px; }
+
+.muestra__titulo .titulo {
+  font-size: 20px;
+  margin: auto; }
+  .muestra__titulo .titulo h2 {
+    font-size: 1.3rem; }
+
+.contenido__compra {
+  width: 50%;
+  font-size: 18px; }
+  .contenido__compra .caracteristicas {
+    font-size: 0.80rem; }
+
+.compra__boton {
+  background-color: #01b801;
+  border-style: none;
+  font-size: 16px;
+  margin: 10px 0px; }
+
+.compra__carrito {
+  background-color: transparent;
+  border-style: none;
+  border: 1px solid #666;
+  font-size: 16px; }
+
+.sinopsis {
+  text-align: center; }
+  .sinopsis p {
+    margin-top: 20px;
+    color: #666; }

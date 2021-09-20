@@ -1,0 +1,57 @@
+@import "colores";
+body {
+    margin: 0;
+    padding: 0;
+}
+
+// ESTILOS TITULO 
+.muestra__titulo {
+    .arrow {
+        position: relative;
+        width: 25px;
+    }
+    .titulo {
+        font-size: 20px;
+        margin: auto;
+        h2 {
+            font-size: 1.3rem;
+        }
+    }
+}
+
+// ESTILOS DEl CONTENIDO
+.contenido {
+    &__compra {
+        width: 50%;
+        font-size: 18px;
+        .caracteristicas {
+            font-size: 0.80rem;
+        }
+    }
+}
+
+// ESTILOS BOTONES
+//  boton compra
+.compra__boton {
+    background-color: rgb(1, 184, 1);
+    border-style: none;
+    font-size: 16px;
+    margin: 10px 0px;
+}
+
+// boton carrito
+.compra__carrito {
+    background-color: transparent;
+    border-style: none;
+    border: 1px solid #666;
+    font-size: 16px;
+}
+
+// ESTILOS SINOPSIS
+.sinopsis {
+    text-align: center;
+    p {
+        margin-top: 20px;
+        color: #666;
+    }
+}
