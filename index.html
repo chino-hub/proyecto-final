@@ -26,7 +26,7 @@
                     <nav class=" navBar contenedor d-flex flex-row-reverse justify-content-col-between flex-md-row justify-content-md-between ">
 
 
-                        <div class=" nav__logo m-md-0 ">
+                        <div class=" nav__logo  m-md-0 ">
                             <a class="d-inline-block m-auto" href="index.html">KRO-DKI <span>libros</span></a>
                         </div>
 
@@ -48,7 +48,7 @@
                             </li>
                         </ul>
 
-                        <div class="list ml-3 ">
+                        <div class="list  ml-3 ">
                             <img class="list__img " id="list" src="assets/iconos/list.svg " alt=" ">
                         </div>
                     </nav>
@@ -61,14 +61,31 @@
 
         <div class="row">
             <section class="col-12">
-                <div class="presentacion p-4 mt-4 ">
+                <div class="promocion mt-4 ">
 
 
-                    <div class="presentacion__titulo titulo">
-                        <h1 class="titulo__h1">KRO-DKI<span>libros</span></h1>
+                    <div id="carouselExampleControls" class="carousel slide altura" data-ride="carousel">
+                        <div class="carousel-inner altura p-0">
+                            <div class="carousel-item active altura">
+                                <img src="assets/imagenes/promocion-1.jpg" class="d-block w-100 altura" alt="promocio libro">
+                            </div>
+                            <div class="carousel-item altura">
+                                <img src="assets/imagenes/promocion-2.jpg" class="d-block w-100 altura" alt="promocio libro">
+                            </div>
+                            <div class="carousel-item altura">
+                                <img src="assets/imagenes/promocion 3.jpg" class="d-block w-100 altura" alt="promocio libro">
+                            </div>
+                        </div>
+                        <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                        </a>
                     </div>
 
-                    <p class="presentacion__p d-md-none "> En kro-dki libros podras encontrar el libro que buscabas tanto sea por autor, editorial o genero </p>
 
                 </div>
             </section>
@@ -337,46 +354,69 @@
 
         <div class="row mt-5 ">
             <div class="col-12 p-0 bg ">
-                <footer id="footer-main" class="contenedor">
-
-                    <div class="footer-left">
+                <footer id="footer-main" class="contenedor d-flex justify-content-between">
 
 
-                        <p class="footer-links bg-color d-flex justify-content-md-around">
-                            <a href="../index.html" class="link-1">Home</a>
 
-                            <a href="contacto.html">Contacto</a>
+                    <div class="footerIzquierda d-flex">
 
-                            <a href="servicio.html">Servicios</a>
+                        <div class=footerIzquierda__contacto ">
 
-                            <a href="nosotros.html">Nosotros</a>
+                                <h4>Contacto</h4>
 
-                            <a href="preguntas.html">Faq</a>
 
-                        </p>
+                                <div class="footerContenedor mt-3 ">
+                                    <p><span>444 S. Cedros Ave</span> Campana, Buenos Aires</p>
 
-                        <p class="footer-company-name">Company Name © 2015</p>
+                                    <p> Tel:  +1.555.555.5555</p>
+
+                                    <p> Email:<a href="mailto:kro-dki@company.com "> support@company.com</a></p>
+
+                                </div>
+                        </div>
+
+                        <div class="footerIzquierda__nav ">
+
+                            <h4>Navegar</h4>
+
+                            <div class="footerContenedor d-flex flex-column ">
+                                <a href="../index.html " class="link-1 ">Home</a>
+
+                                <a href="contacto.html ">Contacto</a>
+
+                                <a href="servicio.html ">Servicios</a>
+
+                                <a href="nosotros.html ">Nosotros</a>
+
+                                <a href="preguntas.html ">Faq</a>
+
+                            </div>
+
+
+                        </div>
+
+
                     </div>
 
-                    <div class="footer-center">
 
-                        <div>
-                            <p><span>444 S. Cedros Ave</span> Campana, Buenos Aires</p>
+
+                    <div class="footerDerecha ">
+                        <h4>Redes sociales</h4>
+
+                        <div class="redes ">
+                            <p>Instagram</p>
+                            <p>Facebook</p>
+                            <p>Whatsapp</p>
                         </div>
-
-                        <div>
-                            <p>+1.555.555.5555</p>
-                        </div>
-
-                        <div>
-                            <p><a href="mailto:kro-dki@company.com">support@company.com</a></p>
-                        </div>
-
                     </div>
+
+
+                </footer>
 
             </div>
 
-            </footer>
+
+
         </div>
     </div>
     </div>

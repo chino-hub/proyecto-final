@@ -66,3 +66,33 @@ a {
 .submenu {
     background-color: #ffffff !important;
 }
+
+// ESTILOS SUBMENU
+.submenu {
+    padding-top: 10px;
+    background-color: #ffffff;
+}
+
+// ESTILOS FILTROS APLICADOS
+.contenedorFiltros {
+    width: 94%;
+    padding: 10px 0px;
+    margin: auto;
+}
+
+.aplicado {
+    width: 70px;
+    height: auto;
+    background-color: rgba(102, 102, 102, 0.20);
+    border-radius: 10px;
+    padding-bottom: 2px;
+    font-size: 18px;
+    &__texto {
+        font-size: 0.70em;
+        margin: auto;
+    }
+    .close {
+        font-size: 1em;
+        margin-left: 10px;
+    }
+}

@@ -93,6 +93,12 @@ body {
             font-weight: lighter;
         }
     }
+    .promocion {
+        height: 300px;
+    }
+    .altura {
+        height: 100%;
+    }
     .tarjeta {
         width: 170px;
         height: auto;
@@ -128,5 +134,33 @@ body {
     }
     .tarjeta:hover {
         box-shadow: 0px 0px 8px 3px rgba(102, 102, 102, 0.3);
+    }
+    // ESTILOS PARA EL FOOTER
+    #footer-main h4 {
+        color: white;
+        font-weight: lighter;
+    }
+    .footerIzquierda {
+        width: 50%;
+        font-size: 18px;
+        &__contacto {
+            p {
+                font-size: .80em;
+            }
+        }
+        &__nav {
+            margin-left: 40px;
+            font-size: .90em;
+        }
+    }
+    .footerContenedor {
+        height: 140px;
+    }
+    .footerDerecha {
+        width: 50%;
+        text-align: center;
+        h4 {
+            letter-spacing: 5px;
+        }
     }
 }
