@@ -23,6 +23,7 @@
     .contenido {
         &__compra {
             width: 50%;
+            padding-right: 10px;
             font-size: 18px;
             .caracteristicas {
                 font-size: 0.80rem;
@@ -31,8 +32,11 @@
     }
     
     .contenido__img {
+        width: 100px;
+        height: 137px;
         img {
-            height: 137px;
+            margin-top: 17px;
+            margin-left: 10px;
             border-radius: initial;
         }
     }

@@ -374,13 +374,18 @@ body {
 
 .contenido__compra {
   width: 50%;
+  padding-right: 10px;
   font-size: 18px; }
   .contenido__compra .caracteristicas {
     font-size: 0.80rem; }
 
-.contenido__img img {
-  height: 137px;
-  border-radius: initial; }
+.contenido__img {
+  width: 100px;
+  height: 137px; }
+  .contenido__img img {
+    margin-top: 17px;
+    margin-left: 10px;
+    border-radius: initial; }
 
 .compra__boton {
   background-color: #8aaae5;
