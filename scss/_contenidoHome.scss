@@ -140,27 +140,4 @@ body {
         color: white;
         font-weight: lighter;
     }
-    .footerIzquierda {
-        width: 50%;
-        font-size: 18px;
-        &__contacto {
-            p {
-                font-size: .80em;
-            }
-        }
-        &__nav {
-            margin-left: 40px;
-            font-size: .90em;
-        }
-    }
-    .footerContenedor {
-        height: 140px;
-    }
-    .footerDerecha {
-        width: 50%;
-        text-align: center;
-        h4 {
-            letter-spacing: 5px;
-        }
-    }
 }

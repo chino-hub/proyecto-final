@@ -1,5 +1,8 @@
+@import url('https://fonts.googleapis.com/css?family=Yaldevi&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Scheherazade+New&display=swap');
 @import "colores";
-body {
+
+body, p {
     margin: 0px;
     padding: 0px;
 }
@@ -7,9 +10,37 @@ body {
 // ESTILOS FOOTER
 #footer-main {
     background-color: $color-blue;
+    padding-top: 50px;
 }
 
-.footer-left,
-.footer-center {
+#footer-main > div {
+    flex: 0.35;
+}
+
+#footer-main h4 {
+    font-family: 'Yaldevi';
+    font-size: 1.7rem;
+}
+
+.footerContenidoSeccion p {
+    font-family: 'Scheherazade New';
+    margin: 16px 0;
     color: $color-white;
+    margin-left: 15px;
+    font-size: 1.2rem;
+    font-weight: 300;
+}
+
+.footerContenidoSeccion a {
+    color: $color-white;
+}
+
+.footerContenidoSeccion {
+    margin-top: 70px;
+}
+
+.redSocial {
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
 }
