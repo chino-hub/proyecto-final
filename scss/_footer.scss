@@ -14,6 +14,7 @@ p {
 }
 
 #footer-main>div {
+    width: 50%;
     text-align: center;
     padding-top: 30px;
     color: $color-white;
@@ -30,18 +31,12 @@ p {
     height: auto;
 }
 
-.creditos {
-    background-color: rgba(138, 170, 229, 0.5) !important;
-}
-
 // VISTA DESKTOP
-@media only screen and (min-width:980px) {
+@media only screen and (min-width:576px) {
     #footer-main {
         background-color: $color-blue;
         padding-top: 50px;
-    }
-    #footer-main>div {
-        flex: 0.35;
+        flex-direction: row;
     }
     #footer-main h4 {
         font-family: 'Yaldevi';
@@ -60,10 +55,16 @@ p {
     }
     .footerContenidoSeccion {
         margin-top: 70px;
+        .redSocial {
+            margin-left: 60px;
+        }
     }
     .redSocial {
         display: flex;
         align-items: center;
         margin-left: 20px;
+    }
+    .creditos {
+        display: none;
     }
 }
