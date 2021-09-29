@@ -215,73 +215,105 @@ body {
     color: white;
     font-weight: lighter; } }
 
-body, p {
+body,
+p {
   margin: 0px;
   padding: 0px; }
 
 #footer-main {
-  background-color: #8aaae5;
-  padding-top: 50px; }
+  flex-direction: column;
+  align-items: center; }
 
 #footer-main > div {
-  flex: 0.35; }
-
-#footer-main h4 {
-  font-family: 'Yaldevi';
-  font-size: 1.7rem; }
-
-.footerContenidoSeccion p {
-  font-family: 'Scheherazade New';
-  margin: 16px 0;
-  color: #ffffff;
-  margin-left: 15px;
-  font-size: 1.2rem;
-  font-weight: 300; }
-
-.footerContenidoSeccion a {
+  width: 50%;
+  text-align: center;
+  padding-top: 30px;
   color: #ffffff; }
 
-.footerContenidoSeccion {
-  margin-top: 70px; }
+.footerContenidoSeccion .redSocial {
+  margin-bottom: 30px; }
 
-.redSocial {
-  display: flex;
-  align-items: center;
-  margin-left: 20px; }
+.iconoRedSocial {
+  width: 30px;
+  height: auto; }
 
-body, p {
+@media only screen and (min-width: 576px) {
+  #footer-main {
+    background-color: #8aaae5;
+    padding-top: 50px;
+    flex-direction: row; }
+  #footer-main h4 {
+    font-family: 'Yaldevi';
+    font-size: 1.7rem; }
+  .footerContenidoSeccion p {
+    font-family: 'Scheherazade New';
+    margin: 16px 0;
+    color: #ffffff;
+    margin-left: 15px;
+    font-size: 1.2rem;
+    font-weight: 300; }
+  .footerContenidoSeccion a {
+    color: #ffffff; }
+  .footerContenidoSeccion {
+    margin-top: 70px; }
+    .footerContenidoSeccion .redSocial {
+      margin-left: 60px; }
+  .redSocial {
+    display: flex;
+    align-items: center;
+    margin-left: 20px; }
+  .creditos {
+    display: none; } }
+
+body,
+p {
   margin: 0px;
   padding: 0px; }
 
 #footer-main {
-  background-color: #8aaae5;
-  padding-top: 50px; }
+  flex-direction: column;
+  align-items: center; }
 
 #footer-main > div {
-  flex: 0.35; }
-
-#footer-main h4 {
-  font-family: 'Yaldevi';
-  font-size: 1.7rem; }
-
-.footerContenidoSeccion p {
-  font-family: 'Scheherazade New';
-  margin: 16px 0;
-  color: #ffffff;
-  margin-left: 15px;
-  font-size: 1.2rem;
-  font-weight: 300; }
-
-.footerContenidoSeccion a {
+  width: 50%;
+  text-align: center;
+  padding-top: 30px;
   color: #ffffff; }
 
-.footerContenidoSeccion {
-  margin-top: 70px; }
+.footerContenidoSeccion .redSocial {
+  margin-bottom: 30px; }
 
-.redSocial {
-  display: flex;
-  align-items: center;
-  margin-left: 20px; }
+.iconoRedSocial {
+  width: 30px;
+  height: auto; }
+
+@media only screen and (min-width: 576px) {
+  #footer-main {
+    background-color: #8aaae5;
+    padding-top: 50px;
+    flex-direction: row; }
+  #footer-main h4 {
+    font-family: 'Yaldevi';
+    font-size: 1.7rem; }
+  .footerContenidoSeccion p {
+    font-family: 'Scheherazade New';
+    margin: 16px 0;
+    color: #ffffff;
+    margin-left: 15px;
+    font-size: 1.2rem;
+    font-weight: 300; }
+  .footerContenidoSeccion a {
+    color: #ffffff; }
+  .footerContenidoSeccion {
+    margin-top: 70px; }
+    .footerContenidoSeccion .redSocial {
+      margin-left: 60px; }
+  .redSocial {
+    display: flex;
+    align-items: center;
+    margin-left: 20px; }
+  .creditos {
+    display: none; } }
 
 body {
   margin: 0;
