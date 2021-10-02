@@ -30,69 +30,52 @@ a {
     }
 }
 
-// ESTILOS BOTONES FILTROS
-.filtros {
-    background-color: rgba(138, 170, 229, 0.7);
-    width: 100wh;
+// ESTILOS TITULO Y FILTROS
+.contenidoSeccionTitulo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 95%;
+    margin: auto;
+    h1 {
+        margin: auto;
+        color: #666;
+    }
+    .filtro {
+        justify-self: end;
+    }
 }
 
-.dropDown,
-.dropDown__menu {
+select {
+    border: 1px solid #666;
     text-align: center;
 }
 
-.dropDown>ul {
-    padding: 0px;
-}
-
-.menu__li {
-    padding: 5px 0px;
-    color: $color-white;
-    cursor: pointer;
-}
-
-.dropDown__menu {
+// ESTILOS CONTENIDO
+.seccionContenidoServicio {
+    width: 90%;
     margin: auto;
 }
 
-.flecha {
-    font-weight: bold;
-}
-
-.menu__li>.oculto {
-    display: none;
-}
-
-.submenu {
-    background-color: #ffffff !important;
-}
-
-// ESTILOS SUBMENU
-.submenu {
-    padding-top: 10px;
-    background-color: #ffffff;
-}
-
-// ESTILOS FILTROS APLICADOS
-.contenedorFiltros {
-    width: 94%;
-    padding: 10px 0px;
-    margin: auto;
-}
-
-.aplicado {
-    width: 70px;
-    height: auto;
-    background-color: rgba(102, 102, 102, 0.20);
-    border-radius: 10px;
-    padding-bottom: 2px;
-    font-size: 18px;
-    &__texto {
-        font-size: 0.70em;
-        margin: auto;
+.contenido {
+    display: flex;
+    align-items: center;
+    img {
+        display: block;
+        width: 60px;
+        height: auto;
     }
-    .close {
-        font-size: 1em;
-        margin-left: 10px;
+    &__info {
+        margin-left: 30px;
+        h3 {
+            font-size: 1.1rem;
+            margin: 0;
+        }
+        p {
+            font-size: .80rem;
+        }
+        span {
+            color: seagreen;
+        }
     }
 }
