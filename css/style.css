@@ -557,7 +557,7 @@ body {
   box-shadow: 0px 0px 14px 8px rgba(102, 102, 102, 0.5); }
 
 .contenidoSeccionNosotros > div {
-  text-align: left; }
+  text-align: center; }
 
 .titulo {
   font-family: 'Abril Fatface', cursive;
@@ -576,7 +576,6 @@ body {
 
 .imgLibreria {
   width: 80%;
-  height: 150px;
   margin: auto;
   margin-top: 30px; }
   .imgLibreria img {
@@ -608,3 +607,13 @@ body {
   color: #ffffff;
   padding: 8px 0px;
   border-style: none; }
+
+@media only screen and (min-width: 768) {
+  .imgLibreria {
+    width: 80%;
+    height: 300px;
+    margin: auto;
+    margin-top: 30px; }
+    .imgLibreria img {
+      width: 100%;
+      height: 100%; } }
