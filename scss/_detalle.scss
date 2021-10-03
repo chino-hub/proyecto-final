@@ -34,9 +34,9 @@
     .contenido__img {
         width: 100px;
         height: 137px;
+        margin-left: 30px;
         img {
-            margin-top: 17px;
-            margin-left: 10px;
+            height: 100%;
             border-radius: initial;
         }
     }
@@ -88,6 +88,28 @@
             height: 50px;
             .tableHead {
                 color: #666;
+            }
+        }
+    }
+    
+    @media only screen and (min-width:768px) {
+        .contenido {
+            &__compra {
+                width: 50%;
+                padding-right: 10px;
+                font-size: 18px;
+                .caracteristicas {
+                    font-size: 0.80rem;
+                }
+            }
+        }
+        .contenido__img {
+            width: 15%;
+            height: auto;
+            margin-left: 30px;
+            img {
+                height: 100%;
+                border-radius: initial;
             }
         }
     }

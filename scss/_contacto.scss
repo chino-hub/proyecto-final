@@ -7,16 +7,17 @@
 body {
     margin: 0;
     padding: 0;
-    background-color: #f9f5f1;
-    background-image: url("../assets/imagenes/fondo-libreria.jpeg");
-    background-position: center;
-    background-size: cover;
-}
-
-// estilos formulario
-#formulario {
-    margin: auto;
-    background-color: rgba(249, 245, 241, 1);
+    // estilos formulario
+    #formulario {
+        margin: auto;
+        background-color: rgba(249, 245, 241, 1);
+    }
+    .fondo {
+        background-color: #f9f5f1;
+        background-image: url("../assets/imagenes/fondo-libreria.jpeg");
+        background-position: center;
+        background-size: cover;
+    }
 }
 
 .navBar {
