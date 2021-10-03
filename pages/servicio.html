@@ -7,84 +7,243 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="buscar por genero editorial o autor , libros educativos e infantiles , sagas y best sellers ">
     <meta name="keyword" content="venta libro autor genero libreria sagas aventura policial ">
-
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
-
     <!-- Link CSS-->
     <link rel="stylesheet" href="../css/style.css">
-
     <title>KRO-DKI Servicios</title>
 </head>
 
 <body>
-
-
     <div class="container-fluid ">
         <div class="row">
             <!-- INCIO MENU -->
             <div class="col-12 p-0">
-
                 <header id="header">
-
-                    <nav class="navBar contenedor d-flex flex-row-reverse justify-content-col-between flex-md-row justify-content-md-between ">
-
+                    <nav class="navBar contenedor d-flex flex-row-reverse justify-content-col-between flex-md-row justify-content-md-between">
                         <div class=" nav__logo m-md-0">
                             <a class="text-decoration-none d-inline-block m-auto" href="../index.html">KRO-DKI <span>libros</span></a>
                         </div>
-
                         <ul class="menu d-flex flex-column flex-md-row active m-md-0 " id="menu">
                             <li class="menu__item pl-3 pr-4 m-md-auto  ">
-                                <a class="menu__link text-decoration-none" href="../index.html"><img class="d-inline-block d-md-none mr-3 " src="../assets/iconos/house.svg" alt="">Home</a>
+                                <a class="menu__link text-decoration-none" href="../index.html"><img class="d-inline-block d-md-none mr-3 " src="../assets/iconos/house.svg" alt="icono home">Home</a>
                             </li>
-
                             <li class="menu__item pl-3 pr-4 m-md-auto ">
-                                <a class="menu__link text-decoration-none" href="servicio.html"><img class="d-inline-block d-md-none mr-3 " src="../assets/iconos/book.svg" alt=""> libros</a>
+                                <a class="menu__link text-decoration-none" href="servicio.html"><img class="d-inline-block d-md-none mr-3 " src="../assets/iconos/book.svg" alt="icono servicios"> libros</a>
                             </li>
-
                             <li class="menu__item pl-3 pr-4 m-md-auto ">
-                                <a class="menu__link text-decoration-none" href="contacto.html"><img class="d-inline-block d-md-none mr-3" src="../assets/iconos/person-lines-fill.svg" alt="">Contacto</a>
+                                <a class="menu__link text-decoration-none" href="contacto.html"><img class="d-inline-block d-md-none mr-3" src="../assets/iconos/person-lines-fill.svg" alt="icono contacto">Contacto</a>
                             </li>
                             <li class="menu__item pl-3 pr-4 m-md-auto">
                                 <a class="menu__link text-decoration-none" href="nosotros.html"><img class="d-inline-block d-md-none mr-3" src="../assets/iconos/person-lines-fill.svg" alt="icono para contacto">Nosotros</a>
                             </li>
                             <li class="menu__item pl-3 pr-4 m-md-auto ">
-                                <a class="menu__link text-decoration-none" href="preguntas.html"><img class="d-inline-block d-md-none mr-3 " src="../assets/iconos/envelope.svg" alt=""> FaQ</a>
+                                <a class="menu__link text-decoration-none" href="preguntas.html"><img class="d-inline-block d-md-none mr-3 " src="../assets/iconos/envelope.svg" alt="icono prguntas frecuentes"> FaQ</a>
                             </li>
                         </ul>
-
                         <div class="list ml-3">
-                            <img class="list__img " id="list" src="../assets/iconos/list.svg " alt=" ">
+                            <img class="list__img " id="list" src="../assets/iconos/list.svg" alt="icono menu">
                         </div>
                     </nav>
-
+                    <div class="col-12 d-md-none p-0">
+                        <!-- buscador -->
+                        <div class="busqueda">
+                            <input class="busqueda__input d-block" type="text" placeholder="Buscar..">
+                            <img class="busqueda__img" src="../assets/iconos/search.svg" alt="">
+                        </div>
+                        <!-- fin buscador -->
+                    </div>
                 </header>
             </div>
             <!-- FIN MENU -->
-            <!-- INICIO MENU LATERAL -->
-
-            <div class="col-12 p-0">
-                <!-- buscador -->
-
-                <div class="busqueda">
-                    <input class="busqueda__input d-block" type="text" placeholder="Buscar..">
-                    <img class="busqueda__img" src="../assets/iconos/search.svg" alt="">
-                </div>
-                <!-- fin buscador -->
-            </div>
-
-
-
         </div>
-
-
-
-
-        <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
-        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
-        <script src="../index.js"></script>
-
+        <!-- TITULO BUSQUEDA -->
+        <div class="row d-flex justify-content-md-end">
+            <section class="col-12 col-md-10">
+                <div class="contenidoSeccionTitulo pt-4">
+                    <h1>Ficcion</h1>
+                </div>
+                <div class="contenidoSeccionOrdenar justify-content-md-end pt-4">
+                    <div class="ordenar">
+                        <label for="ordenar">Ordenar por:</label>
+                        <select name="ordenar" id="ordenar">
+                            <option value="">Seleccione</option>
+                            <option value="mayor">Mayor precio</option>
+                            <option value="menor">Menor precio</option>
+                            <option value="a-z">A-Z</option>
+                            <option value="z-a">Z-A</option>
+                        </select>
+                    </div>
+                    <div class="contenedorIconoFiltro d-md-none">
+                        <img class="iconoFiltro" src="../assets/iconos/filtro-icono.svg" alt="icono filtro">
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+    <!-- INCIO CONTENIDO -->
+    <div class="container-fluid">
+        <div class="row ">
+            <!-- FILTROS -->
+            <aside class="col-12 col-md-2">
+                <div class="contenidoFiltros  flex-md-column mostrarFiltros">
+                    <div class="filtros">
+                        <h3>Genero</h3>
+                        <ul>
+                            <li><a href="#">Drama</a></li>
+                            <li><a href="#">Amor</a></li>
+                            <li><a href="#">Ficcion</a></li>
+                            <li><a href="#">Policial</a></li>
+                            <li><a href="#">Escolares</a></li>
+                        </ul>
+                    </div>
+                    <div class="filtros">
+                        <h3>Editorial</h3>
+                        <ul>
+                            <li><a href="#">Drama</a></li>
+                            <li><a href="#">Amor</a></li>
+                            <li><a href="#">Ficcion</a></li>
+                            <li><a href="#">Policial</a></li>
+                            <li><a href="#">Escolares</a></li>
+                        </ul>
+                    </div>
+                    <div class="filtros">
+                        <h3>Precio</h3>
+                        <ul>
+                            <li><a href="#">$500 a $1500</a></li>
+                            <li><a href="#">$1500 a $2500</a></li>
+                            <li><a href="#">$2500 o mas</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </aside>
+            <!-- FIN FILTROS -->
+            <section class="col-md-10">
+                <div class="seccionContenidoServicio">
+                    <hr>
+                    <div class="contenido">
+                        <img src="../assets/imagenes/imagen1.jpeg" alt="portada libro">
+                        <div class="contenido__info">
+                            <h3>Despues</h3>
+                            <p>Sthepen King</p>
+                            <span>$1239</span>
+                        </div>
+                    </div>
+                    <hr>
+                </div>
+                <div class="seccionContenidoServicio">
+                    <div class="contenido">
+                        <img src="../assets/imagenes/imagen2.jpeg" alt="portada libro">
+                        <div class="contenido__info">
+                            <h3>Guia practica para niños</h3>
+                            <p>Silvio Raij</p>
+                            <span>$1239</span>
+                        </div>
+                    </div>
+                    <hr>
+                </div>
+                <div class="seccionContenidoServicio">
+                    <div class="contenido">
+                        <img src="../assets/imagenes/imagen3.jpeg" alt="portada libro">
+                        <div class="contenido__info">
+                            <h3>Perfecto mentirosos</h3>
+                            <p>Alex Mirez</p>
+                            <span>$1239</span>
+                        </div>
+                    </div>
+                    <hr>
+                </div>
+                <div class="seccionContenidoServicio">
+                    <div class="contenido">
+                        <img src="../assets/imagenes/imagen4.jpeg" alt="portada libro">
+                        <div class="contenido__info">
+                            <h3>Sangre en la daga</h3>
+                            <p>R. A Montgomery</p>
+                            <span>$1239</span>
+                        </div>
+                    </div>
+                    <hr>
+                </div>
+            </section>
+        </div>
+        <!-- FIN CONTENIDO -->
+        <!-- INICIO FORMULARIO -->
+        <div class="row d-flex">
+            <article class=" col-12 col-md-2">
+                <div class="contenidoSeccionAnuncio">
+                    <div class="anuncio">
+                        <img class="w-100" src="../assets/imagenes/anuncios/promocion-1.jpg" alt="">
+                    </div>
+                    <div class="anuncio">
+                        <img class="w-100" src="../assets/imagenes/anuncios/promocion-2.jpg" alt="">
+                    </div>
+                    <div class="anuncio">
+                        <img class="w-100" src="../assets/imagenes/anuncios/promocion-3.jpg" alt="">
+                    </div>
+                </div>
+            </article>
+            <section class="col-12 col-md-10">
+                <div class="subscripcion">
+                    <h3 class="titulo mb-4">Subscribite</h3>
+                    <form class="formulario" action="#">
+                        <input class="input" type="text" value="nombre" placeholder="Nombre">
+                        <input class="input" type="email" value="email" placeholder="Email">
+                        <input class="boton" type="submit" value="Susbcribe">
+                    </form>
+                </div>
+            </section>
+        </div>
+        <!-- FIN FORMULARIO -->
+        <!-- INCIO FOOTER -->
+        <div class="row mt-5">
+            <div class="col-12 p-0 bg">
+                <footer id="footer-main" class="contenedor d-flex justify-content-around">
+                    <div>
+                        <h4>Redes sociales</h4>
+                        <div class="footerContenidoSeccion mt-5 mb-5">
+                            <div class="redSocial">
+                                <a target="blank_" href="https://www.facebook.com/carolina.dekimpe.72"><img class="iconoRedSocial" src="../assets/iconos/fb-icono.svg" alt="icono facebook" /></a>
+                                <p class="d-none d-sm-block">KRO-DKI Libros</p>
+                            </div>
+                            <div class="redSocial">
+                                <img class="iconoRedSocial" src="../assets/iconos/ig-icono.svg" alt="icono instagram" />
+                                <p class="d-none d-sm-block">@krodkilibros</p>
+                            </div>
+                            <div class="redSocial">
+                                <img class="iconoRedSocial" src="../assets/iconos/linkedin-icono.svg" alt="icono linkedin" />
+                                <p class="d-none d-sm-block">KRO-DKI Libros</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <h4>Contacto</h4>
+                        <div class="footerContenidoSeccion mt-5 mb-5">
+                            <div class="redSocial">
+                                <img class="iconoRedSocial" src="../assets/iconos/ubicacion-icono.svg" alt="" />
+                                <p class="d-none d-sm-block">444 S. Cedros Ave Campana, Buenos Aires</p>
+                            </div>
+                            <div class="redSocial">
+                                <img class="iconoRedSocial" src="../assets/iconos/whatsapp-icono.svg" alt="" />
+                                <p class="d-none d-sm-block">+1.555.555.5555</p>
+                            </div>
+                            <div class="redSocial">
+                                <img class="iconoRedSocial" src="../assets/iconos/mail-icono.svg" alt="" />
+                                <p class="d-none d-sm-block"><a href="mailto:kro-dki@company.com">kro-dki@company.com</a></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="creditos">
+                        <p> Powered By: Gonzalo Bartolini</p>
+                    </div>
+                </footer>
+            </div>
+        </div>
+    </div>
+    <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+    <script src="../js/index.js"></script>
+    <script src="../js/filtros.js"></script>
 </body>
 
 </html>

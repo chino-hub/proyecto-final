@@ -21,7 +21,7 @@ a {
         height: 30px;
         margin: auto;
         padding-left: 9px;
-        background-color: rgba(102, 102, 102, 0.13);
+        background-color: #ffffff;
     }
     &__img {
         position: absolute;
@@ -30,69 +30,147 @@ a {
     }
 }
 
-// ESTILOS BOTONES FILTROS
-.filtros {
-    background-color: rgba(138, 170, 229, 0.7);
-    width: 100wh;
+// ESTILOS TITULO Y FILTROS
+.contenidoSeccionOrdenar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 95%;
+    margin: auto;
+    .filtro {
+        justify-self: end;
+    }
 }
 
-.dropDown,
-.dropDown__menu {
+.contenidoSeccionTitulo {
+    text-align: center;
+    color: #666;
+}
+
+select {
+    border: 1px solid #666;
     text-align: center;
 }
 
-.dropDown>ul {
-    padding: 0px;
+// ESTILOS CONTENIDO
+.seccionContenidoServicio {
+    width: 90%;
+    margin: auto;
 }
 
-.menu__li {
-    padding: 5px 0px;
-    color: $color-white;
+.contenido {
+    display: flex;
+    align-items: center;
+    img {
+        display: block;
+        width: 60px;
+        height: auto;
+    }
+    &__info {
+        margin-left: 30px;
+        h3 {
+            font-size: 1.1rem;
+            margin: 0;
+        }
+        p {
+            font-size: .80rem;
+        }
+        span {
+            color: #2e8b57;
+        }
+    }
+}
+
+// ESTILOS FILTROS
+.contenidoFiltros {
+    display: flex;
+    justify-content: space-around;
+    background-color: #f9f5f1;
+    height: initial;
+    opacity: 1;
+    transition: all .2s;
+}
+
+.mostrarFiltros {
+    height: 0;
+    opacity: 0;
+}
+
+.filtros>h3 {
+    font-size: 1.3rem;
+    text-align: center;
+    color: $color-blue;
+    padding-top: 10px;
+}
+
+.filtros ul {
+    padding-left: 0;
+}
+
+.filtros ul li a {
+    color: #666;
+}
+
+.iconoFiltro {
     cursor: pointer;
 }
 
-.dropDown__menu {
-    margin: auto;
-}
-
-.flecha {
-    font-weight: bold;
-}
-
-.menu__li>.oculto {
-    display: none;
-}
-
-.submenu {
-    background-color: #ffffff !important;
-}
-
-// ESTILOS SUBMENU
-.submenu {
-    padding-top: 10px;
-    background-color: #ffffff;
-}
-
-// ESTILOS FILTROS APLICADOS
-.contenedorFiltros {
-    width: 94%;
-    padding: 10px 0px;
-    margin: auto;
-}
-
-.aplicado {
-    width: 70px;
+// estilos anuncios
+.contenidoSeccionAnuncio>div {
+    width: 90%;
     height: auto;
-    background-color: rgba(102, 102, 102, 0.20);
-    border-radius: 10px;
-    padding-bottom: 2px;
-    font-size: 18px;
-    &__texto {
-        font-size: 0.70em;
-        margin: auto;
+    margin: auto;
+    margin-bottom: 15px;
+}
+
+@media only screen and (min-width:768px) {
+    .contenidoFiltros {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        position: initial;
+        background-color: #fff;
+        transition: none;
     }
-    .close {
-        font-size: 1em;
-        margin-left: 10px;
+    .mostrarFiltros {
+        height: initial;
+        opacity: initial;
+    }
+    .filtros>h3 {
+        font-size: 1.3rem;
+        text-align: left;
+        color: $color-blue;
+        padding-top: 10px;
+    }
+    .filtros {
+        margin-left: 20px;
+        margin-bottom: 20%;
+    }
+    .contenido {
+        display: flex;
+        align-items: center;
+        img {
+            display: block;
+            width: 100px;
+            height: auto;
+        }
+        &__info {
+            margin-left: 30px;
+            h3 {
+                font-size: 1.4rem;
+                margin: 0;
+            }
+            p {
+                font-size: .85rem;
+            }
+            span {
+                color: #2e8b57;
+            }
+        }
+    }
+    // estilos anuncios
+    .contenidoSeccionAnuncio>div {
+        width: 100%;
+        height: auto;
     }
 }
