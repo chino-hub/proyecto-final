@@ -362,7 +362,8 @@ body {
   background-color: #ffffff; }
 
 a {
-  text-decoration: none !important; }
+  text-decoration: none !important;
+  color: #000; }
 
 .busqueda {
   position: relative;
