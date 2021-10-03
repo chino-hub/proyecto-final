@@ -8,11 +8,15 @@ body {
     margin: 0;
     padding: 0;
     background-color: #f9f5f1;
+    background-image: url("../assets/imagenes/fondo-libreria.jpeg");
+    background-position: center;
+    background-size: cover;
 }
 
 // estilos formulario
 #formulario {
     margin: auto;
+    background-color: rgba(249, 245, 241, 1);
 }
 
 .navBar {
@@ -36,4 +40,11 @@ body {
     border-radius: 8px;
     border-style: none;
     box-shadow: 0px 0px 4px 1px rgba(102, 102, 102, 0.3);
+}
+
+@media only screen and (min-width:968px) {
+    #formulario {
+        margin: auto;
+        background-color: rgba(249, 245, 241, 1);
+    }
 }
