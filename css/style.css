@@ -431,6 +431,12 @@ select {
 .iconoFiltro {
   cursor: pointer; }
 
+.contenidoSeccionAnuncio > div {
+  width: 90%;
+  height: auto;
+  margin: auto;
+  margin-bottom: 15px; }
+
 @media only screen and (min-width: 768px) {
   .contenidoFiltros {
     display: flex;
@@ -465,7 +471,10 @@ select {
       .contenido__info p {
         font-size: .85rem; }
       .contenido__info span {
-        color: #2e8b57; } }
+        color: #2e8b57; }
+  .contenidoSeccionAnuncio > div {
+    width: 100%;
+    height: auto; } }
 
 body {
   margin: 0;

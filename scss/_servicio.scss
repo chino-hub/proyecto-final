@@ -115,6 +115,14 @@ select {
     cursor: pointer;
 }
 
+// estilos anuncios
+.contenidoSeccionAnuncio>div {
+    width: 90%;
+    height: auto;
+    margin: auto;
+    margin-bottom: 15px;
+}
+
 @media only screen and (min-width:768px) {
     .contenidoFiltros {
         display: flex;
@@ -159,5 +167,10 @@ select {
                 color: #2e8b57;
             }
         }
+    }
+    // estilos anuncios
+    .contenidoSeccionAnuncio>div {
+        width: 100%;
+        height: auto;
     }
 }
