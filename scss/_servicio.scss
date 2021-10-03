@@ -86,6 +86,14 @@ select {
     display: flex;
     justify-content: space-around;
     background-color: #f9f5f1;
+    height: initial;
+    opacity: 1;
+    transition: all .2s;
+}
+
+.mostrarFiltros {
+    height: 0;
+    opacity: 0;
 }
 
 .filtros>h3 {
@@ -112,7 +120,13 @@ select {
         display: flex;
         justify-content: space-around;
         align-items: center;
-        background-color: #f9f5f1;
+        position: initial;
+        background-color: #fff;
+        transition: none;
+    }
+    .mostrarFiltros {
+        height: initial;
+        opacity: initial;
     }
     .filtros>h3 {
         font-size: 1.3rem;
@@ -122,6 +136,7 @@ select {
     }
     .filtros {
         margin-left: 20px;
+        margin-bottom: 20%;
     }
     .contenido {
         display: flex;
