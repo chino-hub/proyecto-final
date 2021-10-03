@@ -161,8 +161,13 @@ body {
     .tarjeta__descripcion span {
       display: block;
       font-size: .75rem;
-      margin-top: -10px;
+      margin-top: 10px;
       color: green; }
+
+.anuncio {
+  margin-left: 10px; }
+  .anuncio img {
+    height: 100%; }
 
 @media only screen and (min-width: 960px) {
   .contenedor {
@@ -209,7 +214,7 @@ body {
       .tarjeta__descripcion span {
         display: block;
         font-size: .80rem;
-        margin-top: -10px; }
+        margin-top: 10px; }
   .tarjeta:hover {
     box-shadow: 0px 0px 8px 3px rgba(102, 102, 102, 0.3); }
   #footer-main h4 {
@@ -318,15 +323,15 @@ p {
 
 body {
   margin: 0;
-  padding: 0;
-  background-color: #f9f5f1;
-  background-image: url("../assets/imagenes/fondo-libreria.jpeg");
-  background-position: center;
-  background-size: cover; }
-
-#formulario {
-  margin: auto;
-  background-color: #f9f5f1; }
+  padding: 0; }
+  body #formulario {
+    margin: auto;
+    background-color: #f9f5f1; }
+  body .fondo {
+    background-color: #f9f5f1;
+    background-image: url("../assets/imagenes/fondo-libreria.jpeg");
+    background-position: center;
+    background-size: cover; }
 
 .navBar {
   height: 100%; }
@@ -443,7 +448,6 @@ select {
 .contenidoSeccionAnuncio > div {
   width: 90%;
   height: auto;
-  margin: auto;
   margin-bottom: 15px; }
 
 @media only screen and (min-width: 768px) {
@@ -517,10 +521,10 @@ body {
 
 .contenido__img {
   width: 100px;
-  height: 137px; }
+  height: 137px;
+  margin-left: 30px; }
   .contenido__img img {
-    margin-top: 17px;
-    margin-left: 10px;
+    height: 100%;
     border-radius: initial; }
 
 .compra__boton {
@@ -557,6 +561,21 @@ body {
     height: 50px; }
     .masDetalles__libro .tableRow .tableHead {
       color: #666; }
+
+@media only screen and (min-width: 768px) {
+  .contenido__compra {
+    width: 50%;
+    padding-right: 10px;
+    font-size: 18px; }
+    .contenido__compra .caracteristicas {
+      font-size: 0.80rem; }
+  .contenido__img {
+    width: 15%;
+    height: auto;
+    margin-left: 30px; }
+    .contenido__img img {
+      height: 100%;
+      border-radius: initial; } }
 
 body {
   margin: 0;
