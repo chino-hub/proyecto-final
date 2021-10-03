@@ -31,19 +31,20 @@ a {
 }
 
 // ESTILOS TITULO Y FILTROS
-.contenidoSeccionTitulo {
+.contenidoSeccionOrdenar {
     display: flex;
     justify-content: space-between;
     align-items: center;
     width: 95%;
     margin: auto;
-    h1 {
-        margin: auto;
-        color: #666;
-    }
     .filtro {
         justify-self: end;
     }
+}
+
+.contenidoSeccionTitulo {
+    text-align: center;
+    color: #666;
 }
 
 select {
@@ -75,7 +76,73 @@ select {
             font-size: .80rem;
         }
         span {
-            color: seagreen;
+            color: #2e8b57;
+        }
+    }
+}
+
+// ESTILOS FILTROS
+.contenidoFiltros {
+    display: flex;
+    justify-content: space-around;
+    background-color: #f9f5f1;
+}
+
+.filtros>h3 {
+    font-size: 1.3rem;
+    text-align: center;
+    color: $color-blue;
+    padding-top: 10px;
+}
+
+.filtros ul {
+    padding-left: 0;
+}
+
+.filtros ul li a {
+    color: #666;
+}
+
+.iconoFiltro {
+    cursor: pointer;
+}
+
+@media only screen and (min-width:768px) {
+    .contenidoFiltros {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        background-color: #f9f5f1;
+    }
+    .filtros>h3 {
+        font-size: 1.3rem;
+        text-align: left;
+        color: $color-blue;
+        padding-top: 10px;
+    }
+    .filtros {
+        margin-left: 20px;
+    }
+    .contenido {
+        display: flex;
+        align-items: center;
+        img {
+            display: block;
+            width: 100px;
+            height: auto;
+        }
+        &__info {
+            margin-left: 30px;
+            h3 {
+                font-size: 1.4rem;
+                margin: 0;
+            }
+            p {
+                font-size: .85rem;
+            }
+            span {
+                color: #2e8b57;
+            }
         }
     }
 }

@@ -45,7 +45,7 @@
                             <img class="list__img " id="list" src="../assets/iconos/list.svg" alt="icono menu">
                         </div>
                     </nav>
-                    <div class="col-12 p-0">
+                    <div class="col-12 d-md-none p-0">
                         <!-- buscador -->
                         <div class="busqueda">
                             <input class="busqueda__input d-block" type="text" placeholder="Buscar..">
@@ -58,10 +58,13 @@
             <!-- FIN MENU -->
         </div>
         <!-- TITULO BUSQUEDA -->
-        <div class="row">
-            <section class="col-12">
+        <div class="row d-flex justify-content-md-end">
+            <section class="col-12 col-md-10">
                 <div class="contenidoSeccionTitulo pt-4">
-                    <fieldset>
+                    <h1>Ficcion</h1>
+                </div>
+                <div class="contenidoSeccionOrdenar justify-content-md-end pt-4">
+                    <div class="ordenar">
                         <label for="ordenar">Ordenar por:</label>
                         <select name="ordenar" id="ordenar">
                             <option value="">Seleccione</option>
@@ -70,8 +73,10 @@
                             <option value="a-z">A-Z</option>
                             <option value="z-a">Z-A</option>
                         </select>
-                    </fieldset>
-                    <img class="filtro" src="../assets/iconos/filtro-icono.svg" alt="">
+                    </div>
+                    <div class="contenedorIconoFiltro d-md-none">
+                        <img class="iconoFiltro" src="../assets/iconos/filtro-icono.svg" alt="icono filtro">
+                    </div>
                 </div>
             </section>
         </div>
@@ -79,7 +84,39 @@
     <!-- INCIO CONTENIDO -->
     <div class="container-fluid">
         <div class="row ">
-            <section class="col-12">
+            <!-- FILTROS -->
+            <aside class="col-12 col-md-2 contenidoFiltros flex-md-column mostrarFiltros">
+                <div class="filtros">
+                    <h3>Genero</h3>
+                    <ul>
+                        <li><a href="#">Drama</a></li>
+                        <li><a href="#">Amor</a></li>
+                        <li><a href="#">Ficcion</a></li>
+                        <li><a href="#">Policial</a></li>
+                        <li><a href="#">Escolares</a></li>
+                    </ul>
+                </div>
+                <div class="filtros">
+                    <h3>Editorial</h3>
+                    <ul>
+                        <li><a href="#">Drama</a></li>
+                        <li><a href="#">Amor</a></li>
+                        <li><a href="#">Ficcion</a></li>
+                        <li><a href="#">Policial</a></li>
+                        <li><a href="#">Escolares</a></li>
+                    </ul>
+                </div>
+                <div class="filtros">
+                    <h3>Precio</h3>
+                    <ul>
+                        <li><a href="#">$500 a $1500</a></li>
+                        <li><a href="#">$1500 a $2500</a></li>
+                        <li><a href="#">$2500 o mas</a></li>
+                    </ul>
+                </div>
+            </aside>
+            <!-- FIN FILTROS -->
+            <section class="col-md-10">
                 <div class="seccionContenidoServicio">
                     <hr>
                     <div class="contenido">
@@ -129,8 +166,8 @@
         </div>
         <!-- FIN CONTENIDO -->
         <!-- INICIO FORMULARIO -->
-        <div class="row">
-            <section class="col-12">
+        <div class="row d-flex justify-content-md-end">
+            <section class="col-12 col-md-11">
                 <div class="subscripcion">
                     <h3 class="titulo mb-4">Subscribite</h3>
                     <form class="formulario" action="#">
@@ -141,6 +178,7 @@
                 </div>
             </section>
         </div>
+        <!-- FIN FORMULARIO -->
         <!-- INCIO FOOTER -->
         <div class="row mt-5">
             <div class="col-12 p-0 bg">
